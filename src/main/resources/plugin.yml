@@ -1,0 +1,16 @@
+name: FakePluginsList
+main: com.fakeplugins.fakepluginslist.FakePluginsList
+version: 1.0.0
+api-version: 1.21
+commands:
+  fakepluginslist:
+    description: FakePluginsList management command.
+    usage: /fakepluginslist reload
+    permission: fakepluginslist.reload
+permissions:
+  fakepluginslist.reload:
+    description: Allows reloading FakePluginsList.
+    default: op
+  fakepluginslist.real:
+    description: Allows viewing the real plugins list.
+    default: op

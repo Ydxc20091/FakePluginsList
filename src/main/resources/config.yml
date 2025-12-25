@@ -1,0 +1,611 @@
+# FakePluginsList config
+
+# Command aliases (without /)
+commands:
+  - "plugins"
+  - "pl"
+
+# Show disabled plugins in the list
+show_disabled_plugins: true
+
+# Permission to view real plugins list
+real_list_permission: "fakepluginslist.real"
+
+# Shuffle plugin order each time
+random_order: true
+
+# Headers (MiniMessage or legacy & codes supported)
+# Available: %count%, %enabled_count%, %disabled_count%
+server_header: "<#349FDA>ⓘ<#349FDA> <white>Server Plugins (%count%<white>):"
+paper_header: "<#0288D1>Paper Plugins (%count%):<#0288D1>"
+bukkit_header: "<#ED8106>Bukkit Plugins (%count%):<#ED8106>"
+
+# Fake plugins list with hover details
+plugins:
+  - name: "ItemAdder"
+    category: "paper"
+    enabled: true
+    version: "4.0.1"
+    description: "Custom items plugin with high CPU and memory usage"
+    authors:
+      - "LoneDev"
+
+  - name: "MythicMobs"
+    category: "bukkit"
+    enabled: true
+    version: "5.6.2"
+    description: "Powerful custom mob plugin, heavy when using complex skills"
+    authors:
+      - "xikage"
+
+  - name: "ModelEngine"
+    category: "bukkit"
+    enabled: true
+    version: "4.0.6"
+    description: "Entity model plugin with high rendering and AI cost"
+    authors:
+      - "Ticxo"
+
+  - name: "Citizens"
+    category: "bukkit"
+    enabled: true
+    version: "2.0.33"
+    description: "NPC plugin, large numbers of NPCs reduce TPS"
+    authors:
+      - "fullwall"
+
+  - name: "Quests"
+    category: "bukkit"
+    enabled: true
+    version: "5.0.5"
+    description: "Quest plugin with many listeners and event checks"
+    authors:
+      - "Blackvein"
+
+  - name: "AdvancedEnchantments"
+    category: "bukkit"
+    enabled: true
+    version: "9.12.0"
+    description: "Custom enchantments plugin with heavy event usage"
+    authors:
+      - "GC"
+
+  - name: "MMOCore"
+    category: "paper"
+    enabled: true
+    version: "1.12.1"
+    description: "RPG core plugin with complex stat and class systems"
+    authors:
+      - "Indyuce"
+
+  - name: "AAC"
+    category: "paper"
+    enabled: true
+    version: "5.0.0"
+    description: "Advanced Anti Cheat, a long-standing commercial anti-cheat"
+    authors:
+      - "konsolas"
+
+  - name: "Spartan"
+    category: "bukkit"
+    enabled: true
+    version: "3.0.9"
+    description: "Spartan AntiCheat, highly configurable with broad detection"
+    authors:
+      - "Vagdedes"
+
+  - name: "Vulcan"
+    category: "bukkit"
+    enabled: true
+    version: "2.9.5"
+    description: "Modern high-performance commercial anti-cheat"
+    authors:
+      - "Tickles"
+
+  - name: "Matrix"
+    category: "bukkit"
+    enabled: true
+    version: "7.8.0"
+    description: "Matrix AntiCheat, strong detection and popular in large servers"
+    authors:
+      - "jiangdashao"
+
+  - name: "NoCheatPlus"
+    category: "bukkit"
+    enabled: true
+    version: "3.16.1"
+    description: "Classic free anti-cheat plugin"
+    authors:
+      - "asofold"
+
+  - name: "Themis"
+    category: "bukkit"
+    enabled: false
+    version: "0.15.4"
+    description: "Lightweight anti-cheat with low false positives"
+    authors:
+      - "ArtemisDev"
+
+  - name: "GrimAC"
+    category: "bukkit"
+    enabled: true
+    version: "2.3.50"
+    description: "Prediction-based anti-cheat with very high accuracy"
+    authors:
+      - "GrimAnticheat"
+
+  - name: "Artemis"
+    category: "bukkit"
+    enabled: true
+    version: "2.2.5"
+    description: "Modern anti-cheat with strong support for newer versions"
+    authors:
+      - "Tux"
+
+  - name: "Intave"
+    category: "bukkit"
+    enabled: true
+    version: "14.2.6"
+    description: "Enterprise-grade anti-cheat with higher resource usage"
+    authors:
+      - "Intave Team"
+  - name: "Slimefun"
+    category: "bukkit"
+    enabled: true
+    version: "RC-37"
+    description: "Core Slimefun plugin providing a tech-magic progression system"
+    authors:
+      - "TheBusyBiscuit"
+
+  - name: "CS-CoreLib"
+    category: "bukkit"
+    enabled: true
+    version: "2.0.0"
+    description: "Core library required by Slimefun and its addons"
+    authors:
+      - "TheBusyBiscuit"
+
+  - name: "Slimefun-Warfare"
+    category: "bukkit"
+    enabled: false
+    version: "1.1.0"
+    description: "Adds weapons, armor and combat-related Slimefun content"
+    authors:
+      - "TheBusyBiscuit"
+
+  - name: "Slimefun-Transportation"
+    category: "bukkit"
+    enabled: true
+    version: "1.4.0"
+    description: "Adds advanced transportation systems to Slimefun"
+    authors:
+      - "TheBusyBiscuit"
+
+  - name: "Slimefun-Energy"
+    category: "bukkit"
+    enabled: true
+    version: "1.5.0"
+    description: "Adds generators, energy networks and machines"
+    authors:
+      - "TheBusyBiscuit"
+
+  - name: "Slimefun-GPS"
+    category: "bukkit"
+    enabled: false
+    version: "1.4.3"
+    description: "GPS system for locating Slimefun machines and resources"
+    authors:
+      - "TheBusyBiscuit"
+
+  - name: "Slimefun-Backpacks"
+    category: "bukkit"
+    enabled: true
+    version: "3.0.0"
+    description: "Adds backpacks for extended inventory storage"
+    authors:
+      - "TheBusyBiscuit"
+
+  - name: "Slimefun-Androids"
+    category: "bukkit"
+    enabled: true
+    version: "2.5.0"
+    description: "Adds programmable androids for automation"
+    authors:
+      - "TheBusyBiscuit"
+
+  - name: "Slimefun-Magic"
+    category: "bukkit"
+    enabled: false
+    version: "1.3.0"
+    description: "Adds magic-themed Slimefun items and mechanics"
+    authors:
+      - "TheBusyBiscuit"
+
+  - name: "InfinityExpansion"
+    category: "bukkit"
+    enabled: true
+    version: "2.1.0"
+    description: "Late-game expansion with extremely powerful machines"
+    authors:
+      - "Mooy1"
+
+  - name: "ExtraUtilities"
+    category: "bukkit"
+    enabled: true
+    version: "1.9.2"
+    description: "Adds quality-of-life and utility Slimefun machines"
+    authors:
+      - "Mooy1"
+
+  - name: "DynaTech"
+    category: "bukkit"
+    enabled: true
+    version: "3.2.1"
+    description: "Industrial and automation-focused Slimefun expansion"
+    authors:
+      - "Mooy1"
+
+  - name: "FluffyMachines"
+    category: "bukkit"
+    enabled: true
+    version: "1.7.0"
+    description: "Adds compact and efficient Slimefun machines"
+    authors:
+      - "FluffyMC"
+
+  - name: "SlimyTreeTaps"
+    category: "bukkit"
+    enabled: true
+    version: "2.3.0"
+    description: "Automates tree sap and resource extraction"
+    authors:
+      - "WalshyDev"
+  - name: "LaggRemover"
+    category: "bukkit"
+    enabled: true
+    version: "2.0.6"
+    description: "Automatically removes entities and tiles to reduce server lag"
+    authors:
+      - "Zrips"
+
+  - name: "ClearLagg"
+    category: "paper"
+    enabled: true
+    version: "3.1.6"
+    description: "Lag prevention plugin with entity clearing and performance tasks"
+    authors:
+      - "bob7l"
+
+  - name: "Cleaner"
+    category: "bukkit"
+    enabled: false
+    version: "2.4.1"
+    description: "Lightweight plugin for cleaning dropped items and entities"
+    authors:
+      - "LinsaFTW"
+  - name: "Towny"
+    category: "bukkit"
+    enabled: true
+    version: "0.99.5.0"
+    description: "Core Towny plugin providing town and nation management"
+    authors:
+      - "LlmDl"
+
+  - name: "TownyChat"
+    category: "bukkit"
+    enabled: true
+    version: "0.90"
+    description: "Adds town, nation and global chat channels for Towny"
+    authors:
+      - "LlmDl"
+
+  - name: "TownyNameUpdater"
+    category: "bukkit"
+    enabled: true
+    version: "2.3"
+    description: "Updates town and nation names to new Towny standards"
+    authors:
+      - "LlmDl"
+
+  - name: "TownyFlight"
+    category: "bukkit"
+    enabled: true
+    version: "1.6.2"
+    description: "Allows players to fly inside their towns"
+    authors:
+      - "TownyAdvanced"
+
+  - name: "TownyFlightCooldown"
+    category: "bukkit"
+    enabled: false
+    version: "1.3.0"
+    description: "Adds cooldowns and limits to Towny flight"
+    authors:
+      - "TownyAdvanced"
+
+  - name: "TownyWar"
+    category: "bukkit"
+    enabled: true
+    version: "0.2.0"
+    description: "Enables war mechanics between towns and nations"
+    authors:
+      - "TownyAdvanced"
+
+  - name: "SiegeWar"
+    category: "bukkit"
+    enabled: true
+    version: "2.0.4"
+    description: "Advanced siege-based warfare system for Towny"
+    authors:
+      - "TownyAdvanced"
+
+  - name: "TownyResources"
+    category: "bukkit"
+    enabled: true
+    version: "0.09"
+    description: "Adds resource production and economy balancing to towns"
+    authors:
+      - "TownyAdvanced"
+  - name: "SiegeWar"
+    category: "bukkit"
+    enabled: true
+    version: "2.0.4"
+    description: "Advanced siege-based warfare system for Towny with timed battles"
+    authors:
+      - "TownyAdvanced"
+  - name: "CrackShot"
+    category: "bukkit"
+    enabled: true
+    version: "0.98.11"
+    description: "Classic gun plugin using items as firearms"
+    authors:
+      - "Shampaggon"
+
+  - name: "CrackShotPlus"
+    category: "bukkit"
+    enabled: true
+    version: "1.4.9"
+    description: "Expansion for CrackShot adding attachments and mechanics"
+    authors:
+      - "Shampaggon"
+
+  - name: "QualityArmory"
+    category: "bukkit"
+    enabled: true
+    version: "2.0.14"
+    description: "Modern gun plugin with realistic models and animations"
+    authors:
+      - "iSach"
+  - name: "Movecraft"
+    category: "bukkit"
+    enabled: true
+    version: "8.0.1"
+    description: "Vehicle plugin allowing movable ships, airships and crafts"
+    authors:
+      - "eirikh1996"
+
+  - name: "Movecraft-Combat"
+    category: "bukkit"
+    enabled: true
+    version: "1.4.0"
+    description: "Combat and weapons addon for Movecraft"
+    authors:
+      - "Movecraft Team"
+
+  - name: "VehiclePlus"
+    category: "bukkit"
+    enabled: true
+    version: "2.2.3"
+    description: "Adds cars, planes and helicopters"
+    authors:
+      - "Kasa"
+
+  - name: "UltimateVehicles"
+    category: "bukkit"
+    enabled: true
+    version: "2.5.6"
+    description: "Premium vehicle plugin with fuel and upgrades"
+    authors:
+      - "ArcanePlugins"
+
+  - name: "Vehicles"
+    category: "bukkit"
+    enabled: true
+    version: "1.8.2"
+    description: "Simple vehicle plugin with basic cars and bikes"
+    authors:
+      - "MrCookieSlime"
+
+  - name: "Aircraft"
+    category: "bukkit"
+    enabled: true
+    version: "3.8.4"
+    description: "Classic aircraft plugin for planes and helicopters"
+    authors:
+      - "Sentry"
+
+  - name: "Train_Carts"
+    category: "bukkit"
+    enabled: true
+    version: "1.20.1-v2"
+    description: "Advanced train and rail vehicle system"
+    authors:
+      - "bergerkiller"
+
+  - name: "Ships"
+    category: "bukkit"
+    enabled: true
+    version: "6.0.0"
+    description: "Water vehicle plugin for boats and ships"
+    authors:
+      - "Darkblade"
+
+  - name: "QualityArmoryVehicles"
+    category: "bukkit"
+    enabled: true
+    version: "1.0.4"
+    description: "Vehicle expansion for QualityArmory"
+    authors:
+      - "iSach"
+
+  - name: "WeaponMechanics"
+    category: "bukkit"
+    enabled: true
+    version: "3.1.6"
+    description: "Highly advanced firearm system with recoil and ballistics"
+    authors:
+      - "WeaponMechanics Team"
+
+  - name: "GunGame"
+    category: "bukkit"
+    enabled: true
+    version: "5.10.2"
+    description: "Gun-based PvP minigame plugin"
+    authors:
+      - "d0by"
+
+  - name: "ModernGuns"
+    category: "bukkit"
+    enabled: true
+    version: "1.6.3"
+    description: "Simple modern gun plugin with lightweight mechanics"
+    authors:
+      - "BigBadE"
+
+  - name: "ProjectKorraGuns"
+    category: "bukkit"
+    enabled: true
+    version: "1.1.0"
+    description: "Gun addon built for ProjectKorra servers"
+    authors:
+      - "PK Team"
+
+  - name: "MrCrayfishGun"
+    category: "bukkit"
+    enabled: true
+    version: "1.2.0"
+    description: "Server-side implementation inspired by MrCrayfish guns"
+    authors:
+      - "Community"
+
+
+  - name: "FlagWar"
+    category: "bukkit"
+    enabled: true
+    version: "1.9.0"
+    description: "Capture-the-flag style warfare system for Towny"
+    authors:
+      - "TownyAdvanced"
+
+  - name: "EventWar"
+    category: "bukkit"
+    enabled: true
+    version: "1.4.2"
+    description: "Event-based war system allowing scheduled Towny battles"
+    authors:
+      - "TownyAdvanced"
+
+  - name: "Conquest"
+    category: "bukkit"
+    enabled: true
+    version: "1.2.1"
+    description: "Territory conquest system built on top of Towny"
+    authors:
+      - "TownyAdvanced"
+
+  - name: "TownySiegeAddon"
+    category: "bukkit"
+    enabled: true
+    version: "1.0.3"
+    description: "Additional mechanics and rules for SiegeWar battles"
+    authors:
+      - "TownyAdvanced"
+
+  - name: "TownyCombat"
+    category: "bukkit"
+    enabled: true
+    version: "1.3.0"
+    description: "Adds combat rules and PvP control integrated with Towny"
+    authors:
+      - "TownyAdvanced"
+  - name: "TownyCultures"
+    category: "bukkit"
+    enabled: false
+    version: "0.07"
+    description: "Adds cultural bonuses and progression to towns"
+    authors:
+      - "TownyAdvanced"
+
+  - name: "TownyPrices"
+    category: "bukkit"
+    enabled: true
+    version: "1.2.1"
+    description: "Dynamic pricing system for Towny plots and upkeep"
+    authors:
+      - "TownyAdvanced"
+
+  - name: "TownyBorders"
+    category: "bukkit"
+    enabled: true
+    version: "1.1.4"
+    description: "Visualizes town and nation borders for players"
+    authors:
+      - "TownyAdvanced"
+
+  - name: "TownyTop"
+    category: "bukkit"
+    enabled: true
+    version: "1.1.0"
+    description: "Leaderboard plugin for top towns and nations"
+    authors:
+      - "TownyAdvanced"
+
+  - name: "TownyGUI"
+    category: "bukkit"
+    enabled: true
+    version: "1.6.0"
+    description: "GUI-based menus for Towny management"
+    authors:
+      - "TownyAdvanced"
+
+  - name: "StackMob"
+    category: "paper"
+    enabled: false
+    version: "5.8.4"
+    description: "Stacks mobs together to reduce entity count and improve performance"
+    authors:
+      - "Gummycraft"
+
+  - name: "LagAssist"
+    category: "bukkit"
+    enabled: true
+    version: "2.30.0"
+    description: "Advanced lag analysis and optimization toolkit"
+    authors:
+      - "ItsMeLenny"
+
+  - name: "CMI"
+    category: "bukkit"
+    enabled: true
+    version: "9.7.8.0"
+    description: "All-in-one server management plugin with commands, economy and utilities"
+    authors:
+      - "Zrips"
+
+  - name: "EssentialsX"
+    category: "bukkit"
+    enabled: true
+    version: "2.20.1"
+    description: "Core server commands and player utilities"
+    authors:
+      - "EssentialsX Team"
+
+  - name: "Vault"
+    category: "paper"
+    enabled: true
+    version: "1.7.3"
+    description: "API plugin for economy, permissions and chat integration"
+    authors:
+      - "MilkBowl"
+
+
